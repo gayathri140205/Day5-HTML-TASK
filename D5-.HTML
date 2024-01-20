@@ -1,0 +1,78 @@
+
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Event Update</title>
+          </head>
+          <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+          }
+          
+          .container {
+            width: 500px;
+            margin: 0 auto;
+             padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+          
+          }
+          
+          h1 {
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          
+          label {
+            display: block;
+            margin-bottom: 5px;
+          }
+          
+          input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+          }
+          
+          input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          input[type="submit"]:hover {
+            background-color: #45a049;
+        
+
+          }
+         </style>
+          <body>
+            <div class="container">
+              <h1>Event Update</h1>
+              <form>
+              <center> <img src="images/download.jpeg"alt="arrow" width="400" height="150"></center> 
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phone">Phone No.:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="seats">Number of seats:</label><br>
+                <input type="number" id="seats" name="seats" min="1" max="23"><br>
+                <label for="attendee2">Name of Attendee 2:</label><br>
+                <input type="text" id="attendee2" name="attendee2"><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </body>
+        </html>
+
+       
